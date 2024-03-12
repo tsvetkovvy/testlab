@@ -57,7 +57,7 @@ if ${use_color} ; then
     alias ls='ls --color=auto'
     alias dir='dir --color=auto'
     alias grep='grep --colour=auto'
-    alias ll='ls --color=auto -la'
+    alias ll='ls --color=auto -lha'
     alias l='ls --color=auto -lA'
 else
     if [[ ${EUID} == 0 ]] ; then
